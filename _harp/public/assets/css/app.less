@@ -1,0 +1,124 @@
+@import '_bootstrap';
+
+
+/* Variables */
+
+@white: #fff;
+@brand-primary: #b44647;
+
+/* Utilities */
+.white{
+  color: @white;
+
+}
+.center{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-grouper{
+  .navbar-default;
+  color: @white;
+  background: transparent;
+  border-bottom: none;
+  .navbar-nav{
+    li{
+      a{
+        color: @white;
+      }
+    }
+  }
+}
+.navbar-grouper.affix{
+  background: fade(@brand-primary, 70%);
+}
+
+.navbar-nav.nav-justified {
+    display:table;
+}
+
+.navbar-nav.nav-justified > li{
+    float:none;
+    width:auto;
+}
+
+.thehero{
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 100px;
+  color: @white;
+  background: @brand-primary url(../img/geopattern.png);
+}
+.leadcopy{
+  margin-top: 100px;
+}
+.form-wrap, .form-wrap-price{
+  max-width: 400px;
+  display: block;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-success, .form-fail, .form-success-price, .form-fail-price{
+  opacity: 0;
+}
+
+
+.why, .hacks{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pricing,{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: @white;
+  background: @brand-primary;
+}
+.price-box{
+  text-align: center;
+  .pricing-header{
+    width: 100%;
+    height: auto;
+    color: @brand-primary;
+    background: @white;
+    h3{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  ul{
+    list-style: none;
+    li{
+      padding: 10px;
+      border-bottom: 1px solid @white;
+      &:last-child{
+        border-bottom: none;
+
+      }
+    }
+  }
+}
+.commands{
+  li{
+    padding: 5px;
+  }
+
+}
+
+.thefooter{
+  color: @white;
+  margin-top: 30px;
+  padding-top: 10px;
+  background: @brand-primary;
+  border-top: 1px solid @white;
+}
+.page-index .thefooter{
+  margin-top: 0;
+}
+.mobile-nav{
+  .visible-xs;
+  background: @brand-primary;
+}

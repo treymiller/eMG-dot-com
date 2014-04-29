@@ -1,0 +1,105 @@
+header.thehero
+  .container
+    .leadcopy.center
+      :markdown
+        # eMailGrouper
+        ### Facilitating small-group interactions from your Inbox.
+        We're in pre-beta right now, but we're looking for people to help us test things out when we launch. If you're interested in an invitation, please sign up below. Our waiting list is a couple weeks long right now, but we promise to get you started as soon as we can!
+      .form-success
+        :markdown
+          #### Thanks for Signing Up!
+          We're working hard and we'll be in touch soon.
+      .form-wrap
+        h4 Sign up for a Beta invitation
+        form#email-signup.form-inline(action="http://eMailGrouper.us7.list-manage.com/subscribe/post?u=8681300fc3ff9664032623d1c&amp;id=a4e14b8825", method="post", name="mc-embedded-subscribe-form" novalidate)
+          div(style="position: absolute; left: -5000px;")
+            input(type="text", name="b_8681300fc3ff9664032623d1c_a4e14b8825", value="")
+          .input-group
+            input#mce-EMAIL.required.email.form-control(type="email", value="", name="EMAIL")
+            span.input-group-btn
+              input#mc-embedded-subscribe.btn.btn-default(type="submit", value="Sign Up", name="subscribe")
+
+section#why.why
+  .container
+    .row
+      .col-lg-12
+        .center
+          :markdown
+            ## Why eMailGrouper?
+    .row
+      .col-lg-12
+        :markdown
+          ### Does anyone really need a **new** way to communicate with their friends, co-workers, book club, or classmates?
+          No. But, we all need a **better** way. Instead of joining yet another social media platform, installing a new app, or navigating a clunky and ad-packed website, what if you could just keep using the Inbox and Address Book you already have?
+
+          ### With eMailGrouper you can! If you've ever:
+
+          * Tried to start a **Facebook** group for your Book Club, only to discover that one of the members doesn't have a Facebook account
+          * Communicated with your Board of Directors by **scrolling through your Inbox** looking for the last message you sent them, hitting "**Reply All**", deleting the old Subject, typing a new subject, deleting the old Body, typing a new body, making sure your signature gets re-added because you probably deleted it by accident...
+          * Set up a group for your fraternity brothers in **Outlook** (or **Gmail**, or **Apple Mail**, or **Mutt**...), only to discover it isn't accessible from your **iPhone** (you have noticed this, haven't you? If not, drop what you're doing and go check!)
+          * **Manually typed** 10 addresses into an email to your Thursday night poker group, only to discover that one of the addresses you used was outdated, or (worse yet!) you accidentally invited the Most Annoying Guy in the World and there's no way to uninvite him
+
+          ###Then you're going to love eMailGrouper. With our service, you'll:
+
+          * **Sign up** for an account in **two steps**, then name your first group.
+          * **Add members** to your first group **right from your Inbox** - **Mac** or **PC**, **Gmail**, **Outlook**, **Apple Mail**, even right from your **iPhone** or **iPad**.
+          * **Do everything else from your Inbox** - add members, remove members, query our system to remind you who the members are, even create New Groups! (We'll walk you through the steps in our Welcome Email)
+          * **Keep all your groups in sync** across all your devices, using the Address Book you already have, with iCloud, Exchange, Google, etc. working behind the scenes.
+          **Best of all, your group members never need to sign up for anything.**
+          In fact, if they're not paying close attention, they may never notice you've started using eMailGrouper...and that's our goal: super-easy for Group Owners, totally transparent for Group Members.
+
+section#pricing.pricing
+  .container
+    .row
+      .col-lg-12
+        .center
+          :markdown
+            ## Pricing
+            ### Completely free during Beta, then:
+    .row
+      .col-sm-3.col-sm-offset-3
+        .price-box
+          .pricing-header
+            h3 Free Forever
+          ul.list-group
+            li 3 Groups
+            li Unlimited Sends
+
+      .col-sm-3
+        .price-box
+          .pricing-header
+            h3  $3/mo.
+          ul.list-group
+            li Unlimited Groups
+            li Unlmited Sends
+
+    .form-success-price.center
+      :markdown
+        #### Thanks for Signing Up!
+          We're working hard and we'll be in touch soon.
+    .form-wrap-price
+      h4 Sign up for a Beta invitation
+      form#email-signup-price.form-inline(action="http://eMailGrouper.us7.list-manage.com/subscribe/post?u=8681300fc3ff9664032623d1c&amp;id=a4e14b8825", method="post", name="mc-embedded-subscribe-form" novalidate)
+        div(style="position: absolute; left: -5000px;")
+          input(type="text", name="b_8681300fc3ff9664032623d1c_a4e14b8825", value="")
+        .input-group
+          input#mce-EMAIL.required.email.form-control(type="email", value="", name="EMAIL")
+          span.input-group-btn
+            input#mc-embedded-subscribe.btn.btn-default(type="submit", value="Sign Up", name="subscribe")
+//
+  section#hacks.hacks
+  .container
+    .row
+      .col-lg-12
+        .center
+          :markdown
+            ## Hacks
+            ### You can manage every aspect of your groups, right from your inbox.
+    .row
+      .col-lg-12
+        p First, create a new message with your group's name in the To: field. Next, add one of the following commands to the Subject line and hit send:
+        ul.commands
+          li ? or help - returns an email to you with a full list of these Subject Line Commands
+          li @ or members - returns an email to you with your group name in the Subject line and Group Members in the Body...in case you ever forget who's in the group.
+          li + or add PLUS one or more email addresses in the body field adds these addresses into your group.
+          li - or remove PLUS one or more existing group members' email addresses in the body field removes these addresses from your group.

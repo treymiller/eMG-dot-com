@@ -1,0 +1,12 @@
+{
+  "domains": [""],
+  "globals": {
+    "site_title": "eMailGrouper",
+    "twitter": "@eMailGrouper",
+    "site_url": "http://emailgrouper.com",
+    "disqus": {
+      "show": false,
+      "shortname": ""
+    }
+  }
+}
