@@ -7,8 +7,12 @@ header.thehero
         We're in Private Beta right now, and we're looking for more people to help us test things out before we go public. If you're interested in an invitation, please sign up below. Our waiting list is a couple weeks long right now, but we promise to get you started as soon as we can!
       .form-success
         :markdown
-          #### Thanks for Signing Up!
+          #### Thanks for signing up!
           We'll be in touch soon.
+      .form-fail
+        :markdown
+          #### We're Sorry, Something Went Wrong!
+          You may have already submitted an entry or something else is broken
       .form-wrap
         h4 Sign up for a Beta invitation
         form#email-signup.form-inline(action="http://eMailGrouper.us7.list-manage.com/subscribe/post?u=8681300fc3ff9664032623d1c&amp;id=a4e14b8825", method="post", name="mc-embedded-subscribe-form" novalidate)
@@ -71,12 +75,21 @@ section#pricing.pricing
             h3  $3/mo.
           ul.list-group
             li Unlimited Groups
-            li Unlmited Sends
+            li Unlimited Sends
 
     .form-success-price.center
       :markdown
+<<<<<<< HEAD
+        #### Thanks for signing up!
+          We'll be in touch soon.
+=======
         #### Thanks for Signing Up!
           We're working hard and we'll be in touch soon.
+    .form-fail-price.center
+      :markdown
+        #### We're Sorry, Something Went Wrong!
+        You may have already submitted an entry or something else is broken
+>>>>>>> FETCH_HEAD
     .form-wrap-price
       h4 Sign up for a Private Beta invitation:
       form#email-signup-price.form-inline(action="http://eMailGrouper.us7.list-manage.com/subscribe/post?u=8681300fc3ff9664032623d1c&amp;id=a4e14b8825", method="post", name="mc-embedded-subscribe-form" novalidate)
