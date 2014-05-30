@@ -20,15 +20,15 @@ section.tos
           1. We're logging diagnostic information right now, so that we can learn as much as possible about how people use our service and how we can improve it. For example, if you send a link in an email to our group, the link in your email will get wrapped in our logging service so that we can see how many people are clicking links in your emails. This is something we'll turn off when we come out of Beta. NOTE: our <a href="http://emailgrouper.com/terms">Terms</a> and <a href="http://emailgrouper.com/privacy">Privacy Policy</a> will always apply.
 
           ## Known Issues and Bugs
-          1. When adding Member(s) using the To: field or Subject Line Commands in an email, the confirmation email may not include the new Member(s) address(es) in it.
+          1. When adding Member(s) using the To: field or Subject Line Commands in an email, the confirmation email may not include the new Member(s) address(es) in it. You can always send an email to the Group Address with "members:" in the subject line to get an accurate, current list of Group Members.
 
-          1. Attachments: we are not passing attachments through our system at this time. If you send an email with a file (.PDF, .DOC, photo, etc.) attached, the email will be delivered but the attachment will be stripped out.
+          1. *Attachments:* we are not passing attachments through our system at this time. If you send an email with a file (.PDF, .DOC, photo, etc.) attached, the email will be delivered but the attachment will be stripped out.
 
-          1. "Null" or "Undefined" in the Body Field of an email: In rare instances, your email may be delivered to your Group Members but the body content may be replaced with the word "Null" or "Undefined". You will still receive a "Delivered" email from us in this instance, so unfortunately the only way you'll know that this happened is if one of your Members replies asking why you sent this strange message. If you experience this bug, please report it to support@emailgrouper.com.
+          1. *"Null" or "Undefined" in the Body Field of an email:* In rare instances, your email may be delivered to your Group Members but the body content may be replaced with the word "Null" or "Undefined". You will still receive a "Delivered" email from us in this instance, so unfortunately the only way you'll know that this happened is if one of your Members replies asking why you sent this strange message. If you experience this bug, please report it to support@emailgrouper.com.
 
           ## Unexpected Behaviors
           We strive to make every email sent through eMailGrouper behave the same way any other email would. However, due to the features we're offering beyond what normal email can do, there are occasional conflicts. For example:
 
-          1. If you send an email with a Group Address in the To: field, and other addresses in the CC: field, your To: recipients will not see those CC: addresses in the email they receive. (This is because if we added the CC: addresses when we parse the email out to your Members, the CC: recipients would get a second copy of the email.)
+          1. If you send an email with a Group Address in the To: field, and other addresses in the CC: field, your To: recipients will not see those CC: addresses in the email they receive. (This is because if we added the CC: addresses when we parse the email out to your Members, the CC: recipients would get a second copy of the email. We have a couple clever solutions to this problem, and will be testing them soon.)
 
-          Where a solution is technically feasible, we are working hard to implement that solution as quickly as possible. In some cases, there are unresolvable conflicts, though.
+          Where a solution to one of these unexpected behaviors is technically feasible, we are working hard to implement that solution as quickly as possible.
